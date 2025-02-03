@@ -16,7 +16,6 @@ license = "MIT"
 website = "https://cytu.be"
 demo = "https://cytu.be/"
 admindoc = "https://github.com/calzoneman/sync/wiki/CyTube-3.0-Installation-Guide"
-userdoc = "https://yunohost.org/apps"
 code = "https://github.com/calzoneman/sync"
 
 
