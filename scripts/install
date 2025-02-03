@@ -3,6 +3,8 @@
 source _common.sh
 source /usr/share/yunohost/helpers
 
+key=$(ynh_string_random --length=30)
+
 #=================================================
 # INSTALL DEPENDENCIES
 #=================================================
