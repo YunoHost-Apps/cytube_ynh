@@ -22,9 +22,9 @@ Le concept de base est que les utilisateurs enregistrent des canaux où les spec
 Chaque canal dispose d'une liste de lecture où les utilisateurs peuvent mettre des vidéos en file d'attente, ainsi que d'un salon de discussion intégré.
 
 
-**Version incluse :** 1.0~ynh1
+**Version incluse :** 3.86.0~ynh1
 
-**Démo :** <https://demo.example.com>
+**Démo :** <https://cytu.be/>
 
 ## Captures d’écran
 
@@ -33,9 +33,8 @@ Chaque canal dispose d'une liste de lecture où les utilisateurs peuvent mettre 
 ## Documentations et ressources
 
 - Site officiel de l’app : <https://cytu.be>
-- Documentation officielle utilisateur : <https://yunohost.org/apps>
-- Documentation officielle de l’admin : <https://yunohost.org/packaging_apps>
-- Dépôt de code officiel de l’app : <https://some.forge.com/example/example>
+- Documentation officielle de l’admin : <https://github.com/calzoneman/sync/wiki/CyTube-3.0-Installation-Guide>
+- Dépôt de code officiel de l’app : <https://github.com/calzoneman/sync>
 - YunoHost Store : <https://apps.yunohost.org/app/cytube>
 - Signaler un bug : <https://github.com/YunoHost-Apps/cytube_ynh/issues>
 
