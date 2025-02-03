@@ -4,8 +4,8 @@ packaging_format = 2
 
 id = "cytube"
 name = "CyTube"
-description.en = "Client for synchronizing online media"
-description.fr = "Client pour la synchronisation des médias en ligne"
+description.en = "Online media synchronizer and chat"
+description.fr = "Synchronisateur de médias et chat en ligne"
 
 version = "3.0~ynh1"
 

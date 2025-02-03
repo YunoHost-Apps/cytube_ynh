@@ -4,4 +4,4 @@
 # COMMON VARIABLES AND CUSTOM HELPERS
 #=================================================
 
-nodejs_version="11"
+nodejs_version="12"
