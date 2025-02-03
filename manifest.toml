@@ -7,7 +7,7 @@ name = "CyTube"
 description.en = "Online media synchronizer and chat"
 description.fr = "Synchronisateur de médias et chat en ligne"
 
-version = "3.0~ynh1"
+version = "3.86.0~ynh1"
 
 maintainers = ["eric_G"]
 
