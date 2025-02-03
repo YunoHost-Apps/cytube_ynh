@@ -1,0 +1,2 @@
+Le concept de base est que les utilisateurs enregistrent des canaux où les spectateurs connectés peuvent regarder des vidéos provenant de différents hébergeurs (par exemple, YouTube, Twitch) et la lecture est synchronisée pour tous les spectateurs du canal.
+Chaque canal dispose d'une liste de lecture où les utilisateurs peuvent mettre des vidéos en file d'attente, ainsi que d'un salon de discussion intégré.

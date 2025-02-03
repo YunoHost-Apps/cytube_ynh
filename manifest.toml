@@ -1,0 +1,71 @@
+#:schema https://raw.githubusercontent.com/YunoHost/apps/master/schemas/manifest.v2.schema.json
+
+packaging_format = 2
+
+id = "cytube"
+name = "CyTube"
+description.en = "Explain in *a few (10~15) words* the purpose of the app or what it actually does (it is meant to give a rough idea to users browsing a catalog of 100+ apps)"
+description.fr = "Expliquez en *quelques* (10~15) mots l'utilité de l'app ou ce qu'elle fait (l'objectif est de donner une idée grossière pour des utilisateurs qui naviguent dans un catalogue de 100+ apps)"
+
+version = "1.0~ynh1"
+
+maintainers = ["eric_G"]
+
+[upstream]
+license = "free" # you can see the available licenses identifiers list here: https://spdx.org/licenses/
+website = "https://cytu.be"
+demo = "https://demo.example.com"
+admindoc = "https://yunohost.org/packaging_apps"
+userdoc = "https://yunohost.org/apps"
+code = "https://some.forge.com/example/example"
+
+
+[integration]
+yunohost = ">= 12.0.9"
+helpers_version = "2.1"
+architectures = "all"
+multi_instance = true
+
+ldap = false
+sso = false
+
+disk = "50M"
+ram.build = "50M"
+ram.runtime = "50M"
+
+[install]
+    [install.domain]
+    type = "domain"
+
+    [install.path]
+    type = "path"
+    default = "/cytube"
+
+    [install.init_main_permission]
+    type = "group"
+    default = "visitors"
+
+[resources]
+
+    [resources.sources]
+
+    [resources.sources.main]
+    url = "https://github.com/calzoneman/sync/archive/9738c3f8c8bb3d9798ee5b5a98a77a21a229112a.tar.gz"
+    sha256 = "7f65e684ddc5615dc047ac71fbbb4df760da92bf6992d41cfe117cfcc8d1d4d8"
+
+    # autoupdate.strategy = "latest_github_tag"
+
+    [resources.system_user]
+
+    [resources.install_dir]
+
+    [resources.permissions]
+    main.url = "/"
+
+    [resources.ports]
+
+    [resources.apt]
+    packages = "mariadb-server, build-essential"
+
+    [resources.database]
+    type = "mysql"
