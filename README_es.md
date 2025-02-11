@@ -21,9 +21,10 @@ No se debe editar a mano.
 The basic concept is that users register channels where connected viewers can watch videos from different video hosts (e.g., YouTube, Twitch) and the playback is synchronized for all the viewers in the channel.
 Each channel has a playlist where users can queue up videos to play, as well as an integrated chatroom for discussion.
 
-**Versión actual:** 1.0~ynh1
 
-**Demo:** <https://demo.example.com>
+**Versión actual:** 3.86.0~ynh1
+
+**Demo:** <https://cytu.be/>
 
 ## Capturas
 
@@ -32,9 +33,8 @@ Each channel has a playlist where users can queue up videos to play, as well as 
 ## Documentaciones y recursos
 
 - Sitio web oficial: <https://cytu.be>
-- Documentación usuario oficial: <https://yunohost.org/apps>
-- Documentación administrador oficial: <https://yunohost.org/packaging_apps>
-- Repositorio del código fuente oficial de la aplicación : <https://some.forge.com/example/example>
+- Documentación administrador oficial: <https://github.com/calzoneman/sync/wiki/CyTube-3.0-Installation-Guide>
+- Repositorio del código fuente oficial de la aplicación : <https://github.com/calzoneman/sync>
 - Catálogo YunoHost: <https://apps.yunohost.org/app/cytube>
 - Reportar un error: <https://github.com/YunoHost-Apps/cytube_ynh/issues>
 

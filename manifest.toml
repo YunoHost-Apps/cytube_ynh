@@ -4,20 +4,19 @@ packaging_format = 2
 
 id = "cytube"
 name = "CyTube"
-description.en = "Explain in *a few (10~15) words* the purpose of the app or what it actually does (it is meant to give a rough idea to users browsing a catalog of 100+ apps)"
-description.fr = "Expliquez en *quelques* (10~15) mots l'utilité de l'app ou ce qu'elle fait (l'objectif est de donner une idée grossière pour des utilisateurs qui naviguent dans un catalogue de 100+ apps)"
+description.en = "Online media synchronizer and chat"
+description.fr = "Synchronisateur de médias et chat en ligne"
 
-version = "1.0~ynh1"
+version = "3.86.0~ynh1"
 
 maintainers = ["eric_G"]
 
 [upstream]
-license = "free" # you can see the available licenses identifiers list here: https://spdx.org/licenses/
+license = "MIT"
 website = "https://cytu.be"
-demo = "https://demo.example.com"
-admindoc = "https://yunohost.org/packaging_apps"
-userdoc = "https://yunohost.org/apps"
-code = "https://some.forge.com/example/example"
+demo = "https://cytu.be/"
+admindoc = "https://github.com/calzoneman/sync/wiki/CyTube-3.0-Installation-Guide"
+code = "https://github.com/calzoneman/sync"
 
 
 [integration]
